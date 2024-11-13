@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="shopping-cart ">
+        <img src="img.jpg" alt="your Product" class="product-image">
+        <h2> Sample product</h2>
+        <p> Rs. 15 </p>
+        <p>Read Your product discription </p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1" onchange="updatePrice()">
+        <p>Total Price: Rs.150.00</p>
+        <button onclick="Buy()">Buy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

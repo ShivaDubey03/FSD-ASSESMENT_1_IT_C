@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.shopping-cart {
+    background-color: #a9b838;
+    padding: 20px;
+    border: 1px solid #c51544;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+}
+
+.product-image {
+    width: 200px;
+    height: 100px;
+    height: auto;
+    margin-bottom: 100px;
+}
+
+input[type="number"] {
+    width: 50px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #789a1a;
+    color: #6a199f;
+    border: none;
+    padding: 10px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+button:hover {
+    background-color: #b93c0e;
+}
